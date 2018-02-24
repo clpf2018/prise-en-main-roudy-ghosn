@@ -17,7 +17,7 @@ public class Client {
     private final String _prenom;
     private final String _nom;
     
-    /* attributs optinnels */
+    /* attributs optionnels */
     
     private String _telephone;
     private String _rue;
@@ -40,7 +40,7 @@ public class Client {
         _mail = cb._mail;
     }
 
-    /* Setters pour tous les attributs */
+    /* Getters pour tous les attributs */
     
     public String getId() {
         return _id;
